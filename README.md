@@ -28,4 +28,23 @@ Feature engineering (e.g., Family size, Title extraction)
 
 Scaling numerical variables
 
-Final cleaned dataset ready for ML trainin
+Final cleaned dataset ready for ML training
+TASK 2
+Exploratory Data Analysis (EDA) on Titanic Dataset
+
+The goal of this task is to perform Exploratory Data Analysis (EDA) on the Titanic dataset to understand patterns, trends, anomalies, and feature relationships using descriptive statistics and visualizations.
+Exploratory Data Analysis (EDA) on Titanic Dataset
+
+⚒️ Tools & Libraries
+
+Python
+
+Pandas → Data manipulation and summary statistics
+
+Matplotlib → Data visualization
+
+Seaborn → Advanced visualizations
+
+NumPy → Numerical operations
+
+

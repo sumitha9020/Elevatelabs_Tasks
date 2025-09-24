@@ -29,6 +29,7 @@ Feature engineering (e.g., Family size, Title extraction)
 Scaling numerical variables
 
 Final cleaned dataset ready for ML training
+
 TASK 2
 Exploratory Data Analysis (EDA) on Titanic Dataset
 

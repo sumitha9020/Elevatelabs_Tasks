@@ -48,4 +48,67 @@ Seaborn → Advanced visualizations
 
 NumPy → Numerical operations
 
+TASK 3
+Linear Regression on Housing Price Prediction Dataset
+Objective
+
+The aim of this task is to implement and understand simple and multiple linear regression using the Housing Price Prediction dataset. We evaluate the model performance and interpret coefficients to understand how features impact house prices.
+Dataset
+
+Dataset used: Housing Price Prediction Dataset
+Download Here
+
+Target Variable: price (House Price)
+Features: Area, number of bedrooms, bathrooms, availability of features like basement, mainroad, airconditioning, parking, etc.
+
+⚒️ Tools & Libraries
+
+Python
+
+Scikit-learn → Linear Regression, Train-test split, Metrics
+
+Pandas → Data manipulation
+
+Matplotlib & Seaborn → Visualization
+
+NumPy → Numerical operations
+
+🔍 Steps Performed
+
+Data Preprocessing
+
+Loaded dataset and checked structure.
+
+Encoded categorical variables (e.g., mainroad, basement, airconditioning).
+
+Handled missing values.
+
+Splitting Dataset
+
+Used 80% training and 20% testing.
+
+Model Training
+
+Implemented Linear Regression using sklearn.linear_model.LinearRegression.
+
+Evaluation Metrics
+
+MAE (Mean Absolute Error)
+
+MSE (Mean Squared Error)
+
+RMSE (Root Mean Squared Error)
+
+R² Score
+
+Visualization
+
+Scatter plot: Actual vs Predicted Prices.
+
+Residuals distribution.
+
+Coefficient Analysis
+
+Extracted regression coefficients to analyze feature importance.
+
 

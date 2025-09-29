@@ -110,5 +110,42 @@ Residuals distribution.
 Coefficient Analysis
 
 Extracted regression coefficients to analyze feature importance.
+Task 4
+Logistic Regression Binary Classification 
+
+Objective
+Build a binary classifier using **Logistic Regression** and evaluate it with multiple metrics.
+
+📂 Dataset
+- **Breast Cancer Wisconsin Dataset** 
+- Classes:
+  - `0` → Malignant
+  - `1` → Benign
+
+⚙️ Steps
+1. Load dataset.
+2. Split into **train/test sets** (80/20).
+3. Standardize features using `StandardScaler`.
+4. Train a **Logistic Regression** model.
+5. Evaluate using:
+   - Accuracy
+   - Confusion Matrix
+   - Precision, Recall, F1-score
+   - ROC-AUC Curve
+6. Demonstrate **threshold tuning**.
+
+📊 Results
+- Achieved **~95% accuracy** on the test set.
+- ROC-AUC score: **~0.99**
+- Model performed well in distinguishing between malignant and benign tumors.
+
+📈 Visualizations
+- Confusion Matrix heatmap
+- ROC Curve
+ Key Learnings
+- Logistic Regression is widely used for **binary classification**.
+- The **sigmoid function** maps outputs to probabilities between 0 and 1.
+- Metrics like **precision, recall, and ROC-AUC** provide deeper insights beyond accuracy.
+- Threshold tuning helps adjust the model for specific needs (e.g., high recall for medical diagnosis).
 
 

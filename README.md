@@ -136,4 +136,76 @@ Reason: The Heart Disease dataset has well-separated classes, and Random Forest�
 - Feature importance shows which features influence predictions most.
 - Cross-validation gives a more reliable performance estimate.
 
+- # Task 6
+- Dataset -Iris Dataset
+
+Features:
+
+Sepal Length
+
+Sepal Width
+
+Petal Length
+
+Petal Width
+
+Target: Species (Iris-setosa, Iris-versicolor, Iris-virginica)
+
+# Tools & Libraries
+
+Scikit-learn (KNeighborsClassifier, metrics, preprocessing)
+
+Pandas & NumPy (data handling)
+
+Matplotlib & Seaborn (visualization)
+
+#  Steps Implemented
+
+Load Dataset → Read Iris.csv.
+
+Preprocessing → Dropped ID column, normalized features using StandardScaler.
+
+Train-Test Split → 80% training, 20% testing.
+
+Model Training → Trained KNN classifier with different values of K (3, 5, 7, 9, 11).
+
+# Evaluation 
+
+Accuracy score for each K.
+
+Confusion Matrix.
+
+Classification Report (Precision, Recall, F1-score).
+
+Visualization →
+
+Accuracy vs. K graph.
+
+Confusion matrix heatmap.
+
+Decision boundary plot (using Sepal Length & Sepal Width).
+
+# 📈 Results
+
+Best K value: Varies depending on run (commonly K=5).
+
+Accuracy: Achieved ~95–100% accuracy on test data.
+
+Observations:
+
+Normalization significantly improved results.
+
+KNN performed well for multi-class classification.
+
+Model is sensitive to noise and choice of K.
+
+# Visualizations
+
+Accuracy vs K plot
+
+Confusion Matrix Heatmap
+
+Decision Boundary (for 2D features)
+- 
+
 

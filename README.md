@@ -84,12 +84,12 @@ Build a binary classifier using **Logistic Regression** and evaluate it with mul
    - ROC-AUC Curve
 6. Demonstrate **threshold tuning**.
 
-# 📊 Results
+# Results
 - Achieved **~95% accuracy** on the test set.
 - ROC-AUC score: **~0.99**
 - Model performed well in distinguishing between malignant and benign tumors.
 
-📈 Visualizations
+# Visualizations
 - Confusion Matrix heatmap
 - ROC Curve
  Key Learnings
@@ -120,12 +120,12 @@ Learn **tree-based models** for classification using **Decision Trees** and **Ra
    - Precision, Recall, F1-score
    - Cross-validation
 
-# 📊 Results
+#  Results
 Result: Random Forest achieved near-perfect accuracy (~99.7% mean CV score).
 Reason: The Heart Disease dataset has well-separated classes, and Random Forest’s bagging + multiple trees capture patterns effectively.
  While the model performs very well here, in real-world applications we rarely expect 100% — so cross-validation is important to confirm generalization.
 
-# 📈 Visualizations
+#  Visualizations
 - Decision Tree diagram
 - Confusion Matrices
 - Feature Importance bar plot
@@ -185,7 +185,7 @@ Confusion matrix heatmap.
 
 Decision boundary plot (using Sepal Length & Sepal Width).
 
-# 📈 Results
+#  Results
 
 Best K value: Varies depending on run (commonly K=5).
 
@@ -206,6 +206,49 @@ Accuracy vs K plot
 Confusion Matrix Heatmap
 
 Decision Boundary (for 2D features)
-- 
+
+# Task 7: Support Vector Machines (SVM)  
+
+# Objective  
+Implement and understand **Support Vector Machines (SVM)** for binary classification using both **Linear** and **RBF kernels**.  
+
+---
+
+#Dataset  
+Source: Breast Cancer Dataset 
+Features:30 numerical features (mean, standard error, worst value of cell nuclei).  
+Target:** Binary classification  
+  - `0 = malignant`  
+  - `1 = benign`  
+
+
+# Tools & Libraries   
+Scikit-learn  
+Pandas, NumPy  
+Matplotlib, Seaborn 
+
+# Steps Implemented  
+1. Load Dataset** → Used sklearn’s built-in Breast Cancer dataset.  
+2. Preprocessing** → Standardized features using `StandardScaler`.  
+3. Model Training** →  
+   - SVM with **Linear Kernel*
+   - SVM with **RBF Kernel*
+4. Hyperparameter Tuning** → Used `GridSearchCV` for `C` and `gamma`.  
+5. Evaluation
+   - Accuracy, Confusion Matrix, Classification Report  
+   - Cross-validation  
+6. Visualization** → Decision boundary (using 2 features).  
+
+# Results  
+Linear Kernel Accuracy:** ~96%  
+RBF Kernel Accuracy:** ~98%  
+Best Parameters (RBF):** e.g., `C=10, gamma=0.01`  
+Cross-validation Accuracy (Linear):** ~95%  
+
+
+# Visualizations  
+ Confusion Matrix heatmap  
+ Decision Boundary for 2 features  
+
 
 

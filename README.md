@@ -249,6 +249,48 @@ Cross-validation Accuracy (Linear):** ~95%
 # Visualizations  
  Confusion Matrix heatmap  
  Decision Boundary for 2 features  
+ 
+# Task 8: K-Means Clustering  
+
+# Objective  
+Perform **unsupervised learning** using *K-Means clustering* to segment data into meaningful groups.  
+
+# Dataset  
+Source: Mall Customer Segmentation Dataset  
+Features Used: 
+Annual Income (k$)  
+Spending Score (1–100)  
+Target:** None (Unsupervised Learning).  
+
+# Tools & Libraries 
+Scikit-learn
+Pandas, NumPy  
+Matplotlib, Seaborn  
+# Steps Implemented  
+1. Load Dataset** → Read `Mall_Customers.csv`.  
+2. Preprocessing** → Selected features, normalized using `StandardScaler`.  
+3. Elbow Method** → Plotted inertia vs K to find optimal number of clusters.  
+4. Model Training** → Applied K-Means clustering with optimal K (usually 5).  
+5. Evaluation** → Computed **Silhouette Score** for cluster quality.  
+6. Visualization** →  
+   2D scatter plot with cluster assignments.  
+   Centroids marked.  
+   PCA-based visualization for high-dimensional extension. 
+
+# Results  
+*Optimal Clusters (K):** ~5 (from Elbow Method).  
+  *Silhouette Score:** ~0.55 (indicates fairly good clustering).  
+  Customers grouped into distinct clusters:  
+  High income, high spenders  
+  High income, low spenders  
+  Average income, average spenders  
+  Low income, high spenders  
+  Low income, low spenders  
+
+# Visualizations  
+Elbow Method plot (to choose K).  
+Cluster scatter plot (Annual Income vs Spending Score).  
+PCA visualization for reduced dimensions. 
 
 
 
